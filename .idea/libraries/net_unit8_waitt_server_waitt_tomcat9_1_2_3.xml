@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="net.unit8.waitt.server:waitt-tomcat9:1.2.3" type="repository">
+    <properties maven-id="net.unit8.waitt.server:waitt-tomcat9:1.2.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/waitt-tomcat9-1.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-core-9.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-annotations-api-9.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-jasper-9.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-el-9.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ecj-3.12.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/waitt-tomcat9-1.2.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ecj-3.12.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/waitt-tomcat9-1.2.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-core-9.0.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-annotations-api-9.0.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-jasper-9.0.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-el-9.0.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ecj-3.12.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
