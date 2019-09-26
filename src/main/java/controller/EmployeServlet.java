@@ -30,6 +30,10 @@ public class EmployeServlet extends HttpServlet {
                 req.setAttribute("services",employeDao.findService());
                 getServletContext().getRequestDispatcher("/WEB-INF/employe.jsp").forward(req,resp);
                 break;
+            case "edit":{
+                break;
+
+            }
         }
     }
     @Override

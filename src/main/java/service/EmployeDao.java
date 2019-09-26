@@ -72,4 +72,19 @@ public class EmployeDao {
             throw ex;
         }
     }
+    public void UpdateEmploye() throws Exception {
+        try{
+            String sqls = "UPDATE employer SET matricule=?,nom=?,datenaissance=?,salaire=?,service_id=?";
+            DatabaseHelper Db = DatabaseHelper.getInstance();
+            Db.iniPreparedCmd(sqls);
+        }
+        catch (Exception ex){
+            throw ex;
+        }
+    }
+    public Employe  findOneBy(int id){
+        Employe employe = new Employe();
+        return employe;
+    }
+
 }
